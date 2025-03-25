@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  padding: 1.5rem 0;
+}
+
+#container {
+  width: 25rem;
+  height: 20rem;
+  background-color: lightslategray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#inputMonto {
+  width: 75%;
+  height: 2rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#selectDivisa {
+  width: 75%;
+  height: 2rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#btnBuscar {
+  width: 75%;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: rgb(14, 155, 210);
+  color: white;
+  font-weight: bold;
+}
+
+#sectionGrafico {
+  width: 40%;
+  margin: 0 auto;
+  height: 400px;
+}
+
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
